@@ -1,0 +1,12 @@
+fruits=[]
+l1=input()
+fruits.append(l1)
+l2=input()
+fruits.append(l2)
+l3=input()
+fruits.append(l3)
+l4=input()
+fruits.append(l4)
+l5=input()
+fruits.append(l5)
+print(fruits)
