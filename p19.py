@@ -11,3 +11,4 @@ elif(marks in range(50,61)):
     print("D")
 elif(marks < 50):
     print("F")
+    
