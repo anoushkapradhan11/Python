@@ -1,0 +1,14 @@
+import random
+computer=random.randint(1,100)
+player=-1
+guess=1
+while(player!=computer):
+    player=int(input("Guess the number:"))
+    if(player>computer):
+        print("Lower number please")
+        guess+=1
+    elif(player<computer):
+        print("Higher number please")
+        guess+=1
+print(f"You have guessed the number {player} with {guess} attempts")
+    
